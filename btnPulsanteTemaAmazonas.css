@@ -1,0 +1,20 @@
+@keyframes btnpulsante {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 15px #000;
+  }
+
+  50% {
+    transform: scale(1.04);
+    box-shadow: 0 0 15px #fe8600;
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 15px #000;
+  }
+}
+
+#product_form > div.form-row.mb-2 > div.col-8.pr-0 > input {
+  animation: btnpulsante 1.5s ease-in-out infinite;
+}
